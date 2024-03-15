@@ -1,6 +1,7 @@
 var botao = document.getElementById("botao");
 botao.addEventListener("click", alertar);
+var nome = document.getElementById("txtnome"); 
 
 function alertar(){
-     alert("Voce clicou no botao!!!");
+     alert(nome.value + " "+ "Voce clicou no botao!!!");
 }
